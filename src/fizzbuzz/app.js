@@ -4,6 +4,9 @@ function fizzbuzz(num) {
     if (i % 3 === 0) {
       char += 'Fizz\n';
     }
+    else if (i % 5 === 0) {
+      char += 'Buzz\n'
+    }
     else{
       char += i.toString() + '\n';
     }
